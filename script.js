@@ -89,7 +89,7 @@ window.addEventListener('scroll', function () {
     var box2 = document.querySelector('.box2');
     var box3 = document.querySelector('.box3');
     box2.style.transform = 'translateX(' + (-scrollPosition * 0.7) + 'px)';
-    box3.style.transform = 'translateX(' + (-scrollPosition * 0.7) + 'px)';
+    box3.style.transform = 'translateX(-' + (-scrollPosition * 0.7) + 'px)';
 });
 
 
