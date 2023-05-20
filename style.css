@@ -222,17 +222,18 @@ html {
 #crafting {
   max-width: 1368px;
   position: relative;
+  animation-name: fade-in;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
 }
 
 .banner {
   opacity: 0;
   width: 100%;
   justify-self: center;
-  animation-name: fade-in;
-  animation-delay: 0.5s;
-  animation-fill-mode: forwards;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
+  
 }
 
 .tagline {
